@@ -414,6 +414,7 @@ ${host}  https://test.torgy.rwsbank.com.ua
     rwsbank.Завантажити документ в лот з типом  ${username}  ${tender_uaid}  ${filepath}  illustration
 
 
+#
 Обрати файл з необхідним типом
     [Arguments]  ${file_path}  ${doc_type}
     Choose File  xpath=(//*[@action="/tender/fileupload"]/input)[last()]  ${file_path}
